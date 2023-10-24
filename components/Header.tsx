@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <header className=" sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 p-5 xl:items-center">
+    <header className=" sticky top-0 flex items-start justify-between max-w-4xl mx-auto z-20 p-4 xl:items-center ">
       <motion.div
         initial={{
           x: -500,
@@ -21,7 +21,12 @@ export default function Header() {
         transition={{ duration: 1 }}
         className=" flex flex-row items-center"
       >
-        {/* social icons*/}
+        {/* social icons
+        1.github
+        2.hackerank
+        3.codeforces
+        4.linkedin
+        5.itch.io */}
         <SocialIcon
           url="https://github.com/Priyansh-commits-3005"
           fgColor="grey"

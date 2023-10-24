@@ -5,13 +5,14 @@ import Image from "next/image";
 import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
 export default function Hero() {
+  const prompts = ["hi", "have test words", " for now"];
   const [text, count] = useTypewriter({
-    words: ["hi", "have test words", " for now"],
+    words: prompts,
     loop: true,
     delaySpeed: 2000,
   });
   return (
-    <div className=" h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className=" h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden pt-4">
       <BackgroundCircles />
       <Image
         className=" relative rounded-full w-32 h-32 mx-auto object-cover"

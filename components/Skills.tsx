@@ -19,7 +19,7 @@ function Skills({}: Props) {
     >
       <h3
         className="absolute uppercase 
-      tracking-[20px] text-gray-500
+      tracking-[12px] text-gray-500
        top-24 text-2xl"
       >
         Skills

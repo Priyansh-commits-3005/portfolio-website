@@ -5,7 +5,11 @@ import Image from "next/image";
 import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
 export default function Hero() {
-  const prompts = ["hi", "have test words", " for now"];
+  const prompts = [
+    "<Hi-The-Name-Is-Priyansh-Pachauri>",
+    "<Loves-To-Build.ipynb>",
+    " <Need-More-Coffee.cs>",
+  ];
   const [text, count] = useTypewriter({
     words: prompts,
     loop: true,
@@ -26,7 +30,7 @@ export default function Hero() {
           <h2 className=" text-base py-3 uppercase text-gray-700 tracking-wider">
             Game developer and machine learning engineer
           </h2>
-          <h1 className="text-4xl lg:text-5xl font-semibold px-10">
+          <h1 className="text-3xl lg:text-5xl font-semibold px-10">
             <span>{text}</span>
             <Cursor cursorColor="#ff0000" />
           </h1>

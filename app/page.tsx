@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 import Link from "next/link";
+import { HomeIcon } from "@heroicons/react/20/solid";
 export default function Home() {
   return (
     <div
@@ -46,11 +47,7 @@ export default function Home() {
       <Link href="#Hero">
         <footer className="sticky bottom-4 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <img
-              className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
-              src="https://i.imgur.com/e2yvD6A.png"
-              alt=""
-            />
+            <HomeIcon className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer opacity-60" />
           </div>
         </footer>
       </Link>

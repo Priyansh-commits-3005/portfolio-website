@@ -25,10 +25,35 @@ export default function Experience({}: Props) {
       </h3>
 
       <div className="w-full flex space-x-8 overflow-x-scroll p-12 snap-x snap-mandatory scrollbar scrollbar-trackgray-400/20  scrollbar-thumb-red-500/70 scrollbar-thin ">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        <ExperienceCard
+          imglink="/logo.svg"
+          jobtitle="Technical member -DS/ML"
+          companyName="Gen-y"
+          start="2023-04-01"
+          end="currently working here"
+          points={[
+            "Team Gen-Y is a project-oriented, technology-based IT solution student team with the mission of integrating and advancing the best minds at SRMIST.",
+            "Team Gen-Y is a project-oriented, technology-based IT solution student team with the mission of integrating and advancing the best minds at SRMIST.",
+            "have also participated in Smart India Hackathon from this club",
+          ]}
+          techphoto1="logos/python.png"
+          techphoto2="logos/unity.webp"
+        />
+        <ExperienceCard
+          imglink="/gamedev.jpg"
+          jobtitle="Technical member - Game programmer"
+          companyName="GameDevCom SRM"
+          start="2023-04-01"
+          end="currently working here"
+          points={[
+            "GameDevcom is a game developers club ",
+            "i have been a techincal member since april 2024 ",
+            "i have made multiple 2d and 3d games and participated in game jams during the tenure",
+          ]}
+          techphoto1="logos/unreal.png"
+          techphoto2="logos/unity.webp"
+        />
+
         {/* experience cards */}
       </div>
     </motion.div>

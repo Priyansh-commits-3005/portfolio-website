@@ -15,7 +15,7 @@ type Inputs = {
 function ContactMe({}: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    window.location.href = `mailto:pp9210@gmail?subject=${formData.subject}
+    window.location.href = `mailto:priyansh.pachauri.codes@gmail?subject=${formData.subject}
     &body=Hi,my name is ${formData.name}.${formData.message}(${formData.email})`;
   };
   return (
@@ -39,18 +39,21 @@ function ContactMe({}: Props) {
           {/* phone number */}
           <div className="flex justify-center items-center space-x-4">
             <PhoneIcon className="text-red-500 h-7 w-7 animate-pulse" />
-            <p className="text-xl">123456789</p>
+            <p className="text-xl">7725041995</p>
           </div>
           {/* email */}
           <div className="flex justify-center items-center space-x-4">
             <EnvelopeIcon className="text-red-500 h-7 w-7 animate-pulse" />
-            <p className="text-xl">pp@gmail.com</p>
+            <p className="text-xl">priyansh.pachauri.codes@gmail.com</p>
           </div>
 
           {/* address */}
-          <div className="flex justify-center items-center space-x-4">
-            <MapPinIcon className="text-red-500 h-7 w-7 animate-pulse" />
-            <p className="text-xl">123 34th street and 15th lane</p>
+          <div className="flex justify-center items-center text-center space-x-4 max-w-xl">
+            <MapPinIcon className="text-red-500 h-9 w-9 animate-pulse" />
+            <p className="text-lg">
+              SRM institute of science and technology, kattankulathar, chennai ,
+              Tamil Nadu PinCode - 603203
+            </p>
           </div>
         </div>
 

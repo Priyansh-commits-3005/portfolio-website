@@ -2,11 +2,12 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Projectcard from "./Projectcard";
 
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5];
+  const projects = [1, 2];
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -29,53 +30,19 @@ function Projects({}: Props) {
       scrollbar-trackgray-400/20  
       scrollbar-thumb-red-500/70 pt-10"
       >
-        {projects.map((project, i) => (
-          <div
-            className="w-screen flex-shrink-0 snap-center
-           flex flex-col space-y-5 items-center justify-center 
-           p-20 md:p-44 h-screen"
-          >
-            <motion.img
-              initial={{
-                y: -300,
-                opacity: 0,
-              }}
-              transition={{
-                duration: 1.2,
-              }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              src="https://picsum.photos/600/300"
-              alt=""
-              className="w-[475px] h-[350px]"
-            />
-            <div className=" space-y-5 px-0 md:px-10 max-w-6xl ">
-              <h4 className="text-2xl font font-semibold text-center tracking-wide">
-                Project{" "}
-                <span className=" text-red-500/50">
-                  {i + 1} of {projects.length}
-                </span>{" "}
-                : ups clone{" "}
-              </h4>
-              <div className="flex flex-row space-x-5 items-center justify-center">
-                <img
-                  className="h-9 w-9 rounded-full"
-                  src="https://picsum.photos/500/500"
-                  alt="tech name"
-                />
-                <img
-                  className="h-9 w-9 rounded-full"
-                  src="https://picsum.photos/500/500"
-                  alt="tech name"
-                />
-              </div>
-              <p className="text-base text-center md:text-left px-6">
-                {" "}
-                project summary man
-              </p>
-            </div>
-          </div>
-        ))}
+        <Projectcard
+          projectname="Space Runner"
+          imglink="/2dgame.jpg"
+          techused={["/logos/unity.webp", "/logos/cs.png"]}
+          summary="2D game in which the player has to overcome obstacles and reach the top but not without collecting space crystals "
+        />
+        <Projectcard
+          projectname="Forest Fire predictor"
+          imglink="/forestfire.jpg"
+          techused={["/logos/python.png", "/logos/sklearn.png"]}
+          summary="this projects predicts if a particular area of a forest is prone to forest fire based on certain input parameters"
+        />
+
         {/* each project mapped out */}
       </div>
 

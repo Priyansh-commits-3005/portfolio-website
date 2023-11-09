@@ -35,12 +35,12 @@ export default function Header() {
             bgColor="transparent"
           />
           <SocialIcon
-            url="https://github.com/Priyansh-commits-3005"
+            url="https://twitter.com/DarkDancer30052"
             fgColor="grey"
             bgColor="transparent"
           />
           <SocialIcon
-            url="https://github.com/Priyansh-commits-3005"
+            url="https://www.linkedin.com/in/priyansh-pachauri-110652252/"
             fgColor="grey"
             bgColor="transparent"
           />

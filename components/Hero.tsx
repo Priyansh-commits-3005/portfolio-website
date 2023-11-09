@@ -6,7 +6,7 @@ import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
 export default function Hero() {
   const prompts = [
-    "<Hi-The-Name-Is-Priyansh-Pachauri>",
+    "Hi,The name is Priyansh Pachauri",
     "<Loves-To-Build.ipynb>",
     " <Need-More-Coffee.cs>",
   ];
@@ -21,7 +21,7 @@ export default function Hero() {
       <div className=" py-6 z-20">
         <Image
           className=" relative rounded-full w-24 h-24 mx-auto"
-          src="https://picsum.photos/400/400"
+          src="/profilephoto.jpg"
           alt="Profile Picture"
           width={400}
           height={400}

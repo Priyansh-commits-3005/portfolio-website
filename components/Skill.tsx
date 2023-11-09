@@ -1,13 +1,15 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, progress } from "framer-motion";
 import React from "react";
 
 type Props = {
   directionLeft: boolean;
+  imglink: string;
+  Progress: string;
 };
 
-function skill({ directionLeft }: Props) {
+function Skill({ directionLeft, imglink, Progress }: Props) {
   return (
     <div
       className=" group relative flex 
@@ -20,10 +22,10 @@ function skill({ directionLeft }: Props) {
         }}
         transition={{ duration: 0.25 }}
         whileInView={{ opacity: 1, x: 0 }}
-        src="https://picsum.photos/400/400"
+        src={imglink}
         alt="python logo"
         className="rounded-full border-gray-500 
-        object-cover w-20 h-20 xl:w-28 xl:h-28 
+         object-center object-scale-down w-20 h-20 xl:w-28 xl:h-28 
         filter 
         group-hover:grayscale transition 
         duration-300 ease-in-out "
@@ -45,7 +47,7 @@ function skill({ directionLeft }: Props) {
              text-black
              opacity-100"
           >
-            100%
+            {Progress}%
           </p>
         </div>
       </div>
@@ -53,4 +55,4 @@ function skill({ directionLeft }: Props) {
   );
 }
 
-export default skill;
+export default Skill;

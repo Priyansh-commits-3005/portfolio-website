@@ -7,7 +7,7 @@ import Image from "next/image";
 type Props = {};
 
 function About({}: Props) {
-  const imglink = "https://picsum.photos/1280/1440";
+  const imglink = "/aboutphoto.jpg";
   return (
     <motion.div
       initial={{
@@ -40,21 +40,24 @@ function About({}: Props) {
         <h4 className=" text-3xl md:text-xl font-semibold">
           here is a <span className="text-red-500">little</span> background
         </h4>
-        <p className=" text-base md:text-sm sm:text-xs">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          iure nisi incidunt, fugiat eum libero dolorem aliquid et laborum
-          deserunt ipsum ad tempora, eaque excepturi expedita aut nihil velit
-          alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
-          asperiores possimus maxime facere libero exercitationem repellat
-          dignissimos, ipsum doloribus deserunt debitis, animi illum facilis
-          modi voluptas adipisci? Ad, similique exercitationem. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Quas, illum eligendi.
-          Nemo voluptatem, obcaecati voluptatibus porro amet quam. Deserunt
-          dolor explicabo corrupti sint, iusto quas! Saepe, qui! Dolorum,
-          molestias libero! Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Voluptatibus praesentium dignissimos omnis, culpa sed asperiores
-          excepturi illo laboriosam dolorem eaque vero eveniet ipsam recusandae
-          natus quia sint enim consequuntur tempore.
+        <p className=" text-lg md:text-sm sm:text-xs">
+          Greetings, I'm Priyansh Pachauri, a dedicated code enthusiast on a
+          quest for knowledge! 🚀 I'm a tenacious student immersing myself in
+          the dynamic realm of game development using Unity. With the power of
+          code, I'm shaping immersive virtual experiences, from epic odysseys to
+          cerebral conundrums, designed to both entertain and stimulate the
+          intellect. But my curiosity doesn't stop at the boundaries of gaming.
+          I'm currently embarking on a fascinating voyage into the realm of
+          machine learning, where I orchestrate algorithms to conjure
+          data-driven magic. In an era where artificial intelligence is
+          revolutionizing our world, I'm committed to mastering its intricacies.
+          Additionally, I indulge in app and web development, where I craft
+          digital wonders one line of code at a time. The possibilities are
+          boundless, and who knows what groundbreaking apps and websites will
+          emerge from my endeavors? Embark on this exhilarating journey with me,
+          as we transform creative visions into reality through the alchemy of
+          code, one pixel and one line at a time. Together, we'll build, learn,
+          and revel in the joy of intellectual exploration. 💡🎮🤖🌐
         </p>
       </div>
     </motion.div>

@@ -16,7 +16,7 @@ export default function Home() {
      text-white h-screen snap-y snap-mandatory overflow-scroll z-0 
       scrollbar scrollbar-trackgray-400/20  scrollbar-thumb-red-500/70 scrollbar-thin"
     >
-      <title>Priyansh's portfolio</title>
+      <title>Priyansh&apos;s portfolio</title>
 
       <Header />
 

@@ -21,6 +21,7 @@ export default function ExperienceCard({
   start: string;
   end: string;
 }) {
+  const key = [1, 2];
   return (
     <article
       className="flex flex-col rounded-lg items-center space-y-7
@@ -62,7 +63,7 @@ export default function ExperienceCard({
         </p>
         <ul className="list-disc space-y-2 ml-3 text-base">
           {points?.map((points, key) => {
-            return <li>{points}</li>;
+            return <ul key={1}>{points}</ul>;
           })}
         </ul>
       </div>

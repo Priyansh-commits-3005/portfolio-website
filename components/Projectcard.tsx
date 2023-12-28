@@ -36,13 +36,16 @@ export default function Projectcard({
           Project : {projectname}
         </h4>
         <div className="flex flex-row space-x-5 items-center justify-center">
-          {techused.map((techused, key) => (
-            <img
-              className="h-9 w-10 rounded-full object-scale-down"
-              src={techused}
-              alt="tech name"
-            />
-          ))}
+          {techused.map((techused, key) => {
+            return (
+              <img
+                key={1}
+                className="h-9 w-10 rounded-full object-scale-down"
+                src={techused}
+                alt="tech name"
+              />
+            );
+          })}
         </div>
         <p className="text-base text-center md:text-left px-6 font-sans">
           {" "}

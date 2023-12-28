@@ -38,9 +38,15 @@ function Projects({}: Props) {
         />
         <Projectcard
           projectname="Forest Fire predictor"
-          imglink="/forestfire.jpg"
+          imglink="/forestFire.jpg"
           techused={["/logos/python.png", "/logos/sklearn.png"]}
           summary="this projects predicts if a particular area of a forest is prone to forest fire based on certain input parameters"
+        />
+        <Projectcard
+          projectname="Project Levitate"
+          imglink="/projectlevitate.png"
+          techused={["/logos/unity.webp", "/logos/cs.png"]}
+          summary="A 3d Game where you have to go from start to end , going through many different obstacles and trecherous paths. this project is still under development"
         />
 
         {/* each project mapped out */}

@@ -41,23 +41,24 @@ function About({}: Props) {
           here is a <span className="text-red-500">little</span> background
         </h4>
         <p className=" text-lg md:text-sm sm:text-xs">
-          Greetings, I'm Priyansh Pachauri, a dedicated code enthusiast on a
-          quest for knowledge! 🚀 I'm a tenacious student immersing myself in
-          the dynamic realm of game development using Unity. With the power of
-          code, I'm shaping immersive virtual experiences, from epic odysseys to
-          cerebral conundrums, designed to both entertain and stimulate the
-          intellect. But my curiosity doesn't stop at the boundaries of gaming.
-          I'm currently embarking on a fascinating voyage into the realm of
-          machine learning, where I orchestrate algorithms to conjure
-          data-driven magic. In an era where artificial intelligence is
-          revolutionizing our world, I'm committed to mastering its intricacies.
-          Additionally, I indulge in app and web development, where I craft
-          digital wonders one line of code at a time. The possibilities are
-          boundless, and who knows what groundbreaking apps and websites will
-          emerge from my endeavors? Embark on this exhilarating journey with me,
-          as we transform creative visions into reality through the alchemy of
-          code, one pixel and one line at a time. Together, we'll build, learn,
-          and revel in the joy of intellectual exploration. 💡🎮🤖🌐
+          Greetings, I&apos;m Priyansh Pachauri, a dedicated code enthusiast on
+          a quest for knowledge! 🚀 I&apos;m a tenacious student immersing
+          myself in the dynamic realm of game development using Unity. With the
+          power of code, I&apos;m shaping immersive virtual experiences, from
+          epic odysseys to cerebral conundrums, designed to both entertain and
+          stimulate the intellect. But my curiosity doesn&apos;t stop at the
+          boundaries of gaming. I&apos;m currently embarking on a fascinating
+          voyage into the realm of machine learning, where I orchestrate
+          algorithms to conjure data-driven magic. In an era where artificial
+          intelligence is revolutionizing our world, I&apos;m committed to
+          mastering its intricacies. Additionally, I indulge in app and web
+          development, where I craft digital wonders one line of code at a time.
+          The possibilities are boundless, and who knows what groundbreaking
+          apps and websites will emerge from my endeavors? Embark on this
+          exhilarating journey with me, as we transform creative visions into
+          reality through the alchemy of code, one pixel and one line at a time.
+          Together, we&apos;ll build, learn, and revel in the joy of
+          intellectual exploration. 💡🎮🤖🌐
         </p>
       </div>
     </motion.div>
